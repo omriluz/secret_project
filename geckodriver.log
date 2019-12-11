@@ -1,0 +1,322 @@
+1576043469154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Omri\\AppData\\Local\\Temp\\rust_mozprofile.XnIhIGcZlSwB"
+1576043470283	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576043472049	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576043472049	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576043472089	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576043472090	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576043472090	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: Error: Extension fxmonitor@mozilla.org is not correctly signed(resource://gre/modules/addons/XPIDatabase.jsm:2343:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2343:17
+processFileChanges@XPIDatabase.jsm:2686:21
+getNewSideloads@XPIProvider.jsm:2617:7
+1576043472091	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576043472236	Marionette	INFO	Listening on port 17830
+1576043472314	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1576043860427	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+[Parent 32948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 32948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 38716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 38716, Chrome_ChildThread] WARNING: pipe error[Child 34420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 34420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1576043894762	Marionette	INFO	Stopped listening on port 17830
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 46332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/sr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576043906502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Omri\\AppData\\Local\\Temp\\rust_mozprofile.X8wqZCWJraIH"
+1576043907138	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576043907961	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576043907961	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576043908033	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576043908033	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576043908037	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: Error: Extension fxmonitor@mozilla.org is not correctly signed(resource://gre/modules/addons/XPIDatabase.jsm:2343:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2343:17
+processFileChanges@XPIDatabase.jsm:2686:21
+getNewSideloads@XPIProvider.jsm:2617:7
+1576043908037	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576043908152	Marionette	INFO	Listening on port 18271
+1576043908537	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://www.okcupid.com/doubletake, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1576044297242	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 3744: Error: Cannot uninstall addon webcompat@mozilla.org from locked install location app-system-defaults
+JavaScript error: https://www.okcupid.com/profile/212869546220581686?cf=quickmatch, line 1: ReferenceError: osdlfm is not defined
+[Parent 35212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi[Child 21792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 35212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 40736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 40736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1576045402979	Marionette	INFO	Stopped listening on port 18271
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7712, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576045413017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Omri\\AppData\\Local\\Temp\\rust_mozprofile.dCkSfoID3jln"
+1576045413395	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045414229	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045414229	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045414276	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045414277	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045414280	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: Error: Extension fxmonitor@mozilla.org is not correctly signed(resource://gre/modules/addons/XPIDatabase.jsm:2343:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2343:17
+processFileChanges@XPIDatabase.jsm:2686:21
+getNewSideloads@XPIProvider.jsm:2617:7
+1576045414281	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045414405	Marionette	INFO	Listening on port 18820
+1576045414534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+[Child 50924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5092IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 26408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27604, Chrome_ChildThread] WARNING: pi1576045652678	Marionette	INFO	Stopped listening on port 18820
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 21716, Chrome_ChildThread] WARNING: pipe error: 109: file 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576045670650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Omri\\AppData\\Local\\Temp\\rust_mozprofile.bynkLiXLhfZj"
+1576045671292	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045672166	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045672166	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045672211	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045672211	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045672215	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: Error: Extension fxmonitor@mozilla.org is not correctly signed(resource://gre/modules/addons/XPIDatabase.jsm:2343:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2343:17
+processFileChanges@XPIDatabase.jsm:2686:21
+getNewSideloads@XPIProvider.jsm:2617:7
+1576045672216	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045672337	Marionette	INFO	Listening on port 19017
+1576045672674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+1576045745008	Marionette	INFO	Stopped listening on port 19017
+[Child 43664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4[Child 37384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Chil
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 40620, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1576045822981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Omri\\AppData\\Local\\Temp\\rust_mozprofile.9JnkZh6BEpbZ"
+1576045823342	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045824169	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045824169	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1576045824244	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045824244	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1576045824258	addons.xpi-utils	WARN	addMetadata: Add-on fxmonitor@mozilla.org is invalid: Error: Extension fxmonitor@mozilla.org is not correctly signed(resource://gre/modules/addons/XPIDatabase.jsm:2343:17) JS Stack trace: addMetadata@XPIDatabase.jsm:2343:17
+processFileChanges@XPIDatabase.jsm:2686:21
+getNewSideloads@XPIProvider.jsm:2617:7
+1576045824259	addons.xpi	WARN	Expected add-on fxmonitor@mozilla.org is missing from the system add-on location.
+1576045824371	Marionette	INFO	Listening on port 19178
+1576045824501	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://cdn.cookielaw.org/consent/7cefe1f1-1679-41d3-83df-9104e50d7c5f.js, line 23: Error: ConsentString - The provided vendor list does not respect the schema from the IAB EU’s GDPR Consent and Transparency Framework
+JavaScript error: https://www.okcupid.com/doubletake, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://www.okcupid.com/doubletake, line 1: ReferenceError: osdlfm is not defined
+1576045842528	Marionette	INFO	Stopped listening on port 19178
+[Parent 48736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 34836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 34836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chr[Parent 48736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 39528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3[Parent 48736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

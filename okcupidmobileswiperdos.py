@@ -194,8 +194,10 @@ if __name__ == '__main__':
 		sleep(5.5)
 		if okcupid.limit_reached() == True:
 			# Close the browser and sleep the designated amount of time
+			sleep(4)
 			time_to_wait = okcupid.driver.find_element_by_class_name("likes-cap-breather-modal-countdown").text
 			okcupid.driver.close()
+			print(f"sleeping for {time_to_wait}")
 			sleep(okcupid.amount_of_time_to_sleep(time_to_wait))
 			print("sleeping finished")
 			okcupid.driver.get("https://www.okcupid.com/doubletake")
