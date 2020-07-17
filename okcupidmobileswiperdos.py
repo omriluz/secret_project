@@ -196,9 +196,10 @@ if __name__ == '__main__':
 		# needs a few seconds to load the element in limit_reached
 		sleep(5.5)
 		if okcupid.limit_reached() == True:
+			embed()
 			# Close the browser and sleep the designated amount of time
 			sleep(10)
-			time_to_wait = okcupid.driver.find_element_by_xpath("/html/body/main/div/div/div[2]/div/div/div[3]/span/div/button[2]/div[2]").text
+			time_to_wait = okcupid.driver.find_element_by_class_name("likes-cap-breather-modal-countdown").text
 			okcupid.driver.close()
 			print(f"sleeping for {time_to_wait}")
 			sleep(okcupid.amount_of_time_to_sleep(time_to_wait))
