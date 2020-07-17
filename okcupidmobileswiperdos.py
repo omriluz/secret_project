@@ -8,7 +8,6 @@
 # should I replace javascript execution with something more safe? 
 
 
-
 # selenium.common.exceptions.ElementClickInterceptedException: Message: Element <div class="navbar-link-icon-container"> is not clickable at point (115,143) because another element <div class="FullscreenOverlay-inner"> obscures it
 # grab endtime with better elements^^^^^^^^^^^^^^^^^^^^^
 
@@ -16,11 +15,10 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from IPython import embed
 from random import choice
 import configparser
 import os
-
+from IPython import embed
 # later change this to work with expected conditions
 from time import sleep
 import random
@@ -63,7 +61,7 @@ class OkCupid:
 		options = Options() 
 
 		# UNCOMMENT THIS TO MAKE BROWSER HEADLESS
-		# options.headless = True
+		options.headless = False
 		
 		self.driver = webdriver.Firefox(data_path, options=options)
 
@@ -109,8 +107,9 @@ class OkCupid:
 
 		# press like
 		try:
-			self.driver.execute_script("document.getElementById('like-button').click();")
+			self.driver.execute_script("document.getElementById('like-button').click();")		
 		except:
+			
 			print("like button js failed, remove except so you know to find the exception ")				
 
 
@@ -157,8 +156,11 @@ class OkCupid:
 		sleep(7)
 
 		# go back to double take
-		okcupid.driver.find_element_by_class_name('navbar-link-icon-container').click() 
+		# okcupid.driver.find_element_by_class_name('navbar-link-icon-container').click() 
+		self.driver.get("https://www.okcupid.com/doubletake")
+
 		# if this ever breaks just use driver.get to the doubletake page
+
 
 	def limit_reached(self):
 
@@ -178,7 +180,9 @@ class OkCupid:
 		# OUTPUT: 56280
 
 		time_list = time_string.split()
-		amount_calculated = int(time_list[0][0]) * 60 * 60 + int(time_list[1][0]) * 60
+
+		# wait the wanted amount of time plus 60 seconds just in case
+		amount_calculated = int(time_list[0][0]) * 60 * 60 + int(time_list[1][0]) * 60 + 60
 		return amount_calculated
 
 
@@ -187,15 +191,14 @@ if __name__ == '__main__':
 	while True:
 
 		okcupid.press_profile()
-
+		sleep(4)
 		okcupid.press_like()
-
 		# needs a few seconds to load the element in limit_reached
 		sleep(5.5)
 		if okcupid.limit_reached() == True:
 			# Close the browser and sleep the designated amount of time
-			sleep(4)
-			time_to_wait = okcupid.driver.find_element_by_class_name("likes-cap-breather-modal-countdown").text
+			sleep(10)
+			time_to_wait = okcupid.driver.find_element_by_xpath("/html/body/main/div/div/div[2]/div/div/div[3]/span/div/button[2]/div[2]").text
 			okcupid.driver.close()
 			print(f"sleeping for {time_to_wait}")
 			sleep(okcupid.amount_of_time_to_sleep(time_to_wait))
@@ -204,3 +207,7 @@ if __name__ == '__main__':
 		else:
 			okcupid.message_screen()
 	
+
+	
+	# okcupid.driver.find_element_by_class_name('profile-thumb').click()
+	# okcupid.driver.find_element_by_class_name('photo-overlay-image-content').get_attribute('src')
