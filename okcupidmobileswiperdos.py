@@ -2,7 +2,6 @@
 ####################################################
 
 # validate that the messaged user does not have a full inbox , if she does go back to the main screen (Right now the workaround solution is by creating a main loop that keeps the program running even when obstacles occur)
-# format with datetime the time you need to wait 
 # on the first function assert that you are in the homepage else get to it
 # need more validations of current url and other things to avoid exceptions
 # should I replace javascript execution with something more safe? 
@@ -127,7 +126,7 @@ class OkCupid:
 
 		sleep(self.pause)
 		try:
-			self.driver.find_element_by_class_name("accept-cookie-container").click()
+			self.driver.find_element_by_id("onetrust-accept-btn-handler").click()
 			sleep(self.pause)
 		except NoSuchElementException:
 			pass
